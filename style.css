@@ -5,8 +5,21 @@
  }
  
  body {
-  background-color: #FFEDD5;
+  background-color: #ffedd5fc;
   font-family: 'Roboto', sans-serif;
+  background: url(img/coffee-beans-dark-background-top-view-coffee-concept-banner.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 30px;
+ }
+
+ .container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #e7d7c887;
+  /* border-radius: 12px; */
+  /* background-image: url(img/espresso.jpg); */
+
  }
 
  ul {
@@ -24,6 +37,7 @@
  header {
   text-align: center;
   padding: 32px 0;
+  align-items:baseline;
  }
 
  header,
@@ -32,10 +46,16 @@
   margin: 0 auto;
  }
 
+ header img {
+  max-width: 60px;
+  float: left;
+ }
+
  header h1 {
-  margin-bottom: 4px;
   font-size: 28px;
-  line-height: 33px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  float: right;
  }
 
  header h1 span {
